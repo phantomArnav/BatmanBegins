@@ -1,0 +1,16 @@
+class Thunder{
+    constructor(x,y,w,h){
+        this.image = loadImage("1.png")
+        this.image = loadImage("2.png")
+        this.image = loadImage("3.png")
+        this.image = loadImage("4.png")
+        this.x = x;
+        this.y = y;
+        this.w = w;
+        this.h = h;
+    }
+    display(){
+        imageMode(CENTER)
+        image(this.image,300,100,300,300);
+    }
+}
